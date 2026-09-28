@@ -1,4 +1,5 @@
 # a program to store data in variables and print them.
+
 prompt = "Hello World!!!"
 name = "Tilak Giri"
 birth_year = 2003
