@@ -1,3 +1,3 @@
-Exercise set 1 has been completed.
+I have started with set 2 exercises now.
 
-Im now moving on to the set 2.
+I might complete this today till 24.00
