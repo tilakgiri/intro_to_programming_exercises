@@ -6,6 +6,6 @@ b_leg = float(input("Give the second leg:\n"))
 
 hypotenuse = math.sqrt(math.pow(a_leg, 2) + math.pow(b_leg, 2))
 
-hypotenuse = round(hypotenuse, 1)
+hypotenuse = round(hypotenuse, 2)
 
 print(f"Hypotenuse: {hypotenuse} m")
