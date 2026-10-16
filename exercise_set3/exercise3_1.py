@@ -7,5 +7,7 @@ second_number = int(input("Give second number: \n"))
 # comparing two numbers traditionally...
 if first_number > second_number:
     print(f"Bigger number: {first_number}")
-else:
+elif first_number < second_number:
     print(f"Bigger number: {second_number}")
+else:
+    print("Numbers are equal.")
