@@ -1,7 +1,3 @@
-# create an application that asks the uset he number of working houes for the week and tehir hourly wage. based on the given workhours and the hourlt wage calculate the users weeekly wage.
-
-# all hours that are over 40 hrs are overtime hours and these  hours have a 50% increase to their hourly wage.
-
 working_hours = int(input("How many workhours this week?\n"))
 
 hourly_wage = int(input("Your hourly salary?\n"))
