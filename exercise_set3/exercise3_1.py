@@ -1,5 +1,4 @@
 # taking input from the user for two integers.
-
 first_number = int(input("Give first number: \n"))
 second_number = int(input("Give second number: \n"))
 
