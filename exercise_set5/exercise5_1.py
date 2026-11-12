@@ -13,4 +13,4 @@ for a in range(50):
     print(f"{a}\n")
 
 
-# no ai or code assist were used for this program.
+# no AI or code assist were used for this program.
