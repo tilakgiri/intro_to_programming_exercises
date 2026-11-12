@@ -7,12 +7,10 @@ months = ("January", "February", "March", "April",
 month_num = input("Give the number of month:\n")
 month_num = int(month_num) - 1
 
-# here i have created else condition just in case user does some mistake
-if 1 <= month_num <=12:
-    result = months[month_num]
-    print(result)
-else:
-    print("Wrong input :(")
+# here i have not created else condition for mistake
+# because of recommended line of code expected in the exercise
+result = months[month_num]
+print(result)
 
 
 # no AI has been used to write this code
