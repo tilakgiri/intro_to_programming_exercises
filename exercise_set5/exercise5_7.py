@@ -5,6 +5,7 @@ products = ["PHILIPS_Boiler_HD4646_2020_09_21_C_1",
             "WHIRLPOOL_Microwave_MCP345WH_2019_01_15_C_1",
             "ROSENLEW_Freezer_RPP2330_2017_01_29_C_2",
             "ELECTROLUX_Fridge_ERF4114AOW_2017_11_07_C_2"]
+categories = ["Other", "Small electronics", "Appliances", "Blenders"]
 
 # for loop that goes through every element in list
 for product in products:
@@ -22,16 +23,18 @@ for product in products:
     # i used if-else condition to check and give their respective names
     category_number = product[7]
     if category_number == "1":
-        category = "Small electronics"
+        description = categories[1]
     elif category_number == "2":
-        category = "Appliances"
+        description = categories[2]
+    elif category_number == "3":
+        description = categories[3]
     else:
-        category = "Blenders"
+        description = categories[0]
 
     # printing every line as required from the program
     print(f"Brand: {brand}")
     print(f"Name and model: {product_name} ({model})")
-    print(f"Category: {category}")
+    print(f"Category: {description}")
     print(f"Addition date: {day}.{month}.{year}\n")
 
 
