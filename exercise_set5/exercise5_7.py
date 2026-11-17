@@ -32,10 +32,11 @@ for product in products:
         description = categories[0]
 
     # printing every line as required from the program
+    # I was also thinking creating a loop for these nametags
+    # but i think it would be more complicated for the simple task as it is
     print(f"Brand: {brand}")
     print(f"Name and model: {product_name} ({model})")
     print(f"Category: {description}")
     print(f"Addition date: {day}.{month}.{year}\n")
-
 
 # no AI has been used to write this program :)
