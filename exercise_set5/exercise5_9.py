@@ -14,6 +14,7 @@ filtered_names = [name for name in filtered_names if len(name) < 8]
 
 # for name in filtered_names:
 #     count = sum(map(name.count, vowels)) <= 2
-#     filtered_names =
+#     filtered_names = name
+
 
 print(filtered_names)
